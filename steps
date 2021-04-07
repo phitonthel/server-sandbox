@@ -1,0 +1,4 @@
+npx sequelize model:generate --name Database --attributes name:string,number:double,message1:string,message2:string,message3:string
+
+npx sequelize db:create
+npx sequelize db:migrate
